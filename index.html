@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innocencia Mkhatswa | Software Developer</title>
+    <meta name="description" content="Innocencia Lindokuhle Mkhatswa – Software Developer building clean, responsive websites and applications with Java, Python, PHP, JavaScript and SQL.">
+
+    <!-- Preview when the link is shared on WhatsApp / LinkedIn -->
+    <meta property="og:title" content="Innocencia Mkhatswa | Software Developer">
+    <meta property="og:description" content="I turn ideas into clean, working software.">
+    <meta property="og:image" content="images/profile.jpg">
+
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Scroll progress bar -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+
+    <!-- ===== HEADER ===== -->
+    <header class="header" id="header">
+        <nav class="navbar">
+
+            <a href="#home" class="logo">IM<span>.</span></a>
+
+            <div class="nav-links" id="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#Education" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <button class="icon-btn" id="theme-button" aria-label="Switch light or dark mode" title="Light / dark mode">
+                    <svg class="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v3M12 19.5v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M1.5 12h3M19.5 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+                    <svg class="icon-moon" viewBox="0 0 24 24"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11Z"/></svg>
+                </button>
+                <a href="cv.pdf" class="btn btn-small" download>CV ↓</a>
+                <button class="icon-btn menu-button" id="menu-button" aria-label="Open menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- ===================================
+             HOME
+        ==================================== -->
+        <section id="home" class="hero">
+
+            <!-- Moving dots background (drawn by script.js) -->
+            <canvas id="particles" class="particles"></canvas>
+
+            <div class="hero-inner">
+
+                <div class="hero-content">
+
+                    <span class="status-badge">
+                        <span class="status-dot"></span>
+                        Available for junior developer roles
+                    </span>
+
+                    <p class="eyebrow">SOFTWARE DEVELOPER · SOUTH AFRICA</p>
+
+                    <h1 class="hero-title">Hi, I'm Innocencia Lindokuhle Mkhatswa</h1>
+
+                    <h2 class="hero-tagline">
+                        I turn ideas into <span class="accent">clean, working software.</span>
+                    </h2>
+
+                    <p class="hero-description">
+                        ICT Application Development graduate building responsive websites
+                        and applications with Java, Python, PHP, JavaScript and SQL. I learn fast, write
+                        tidy code and I'm ready to add value to a team from day one.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Let's Talk</a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a href="https://github.com/Innocencia-Lindokuhle-Mkhatswa" target="_blank" rel="noopener" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/lindokuhle-innocencia-mkhatswa-728699279/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+                        </a>
+                        <a href="#contact" aria-label="Email">
+                            <svg viewBox="0 0 24 24"><path d="M2 4h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm10 8.2L3 6.6V18h18V6.6l-9 5.6ZM3.6 6l8.4 5.2L20.4 6H3.6Z"/></svg>
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- Photo -->
+                <div class="hero-visual">
+                    <div class="photo-frame">
+                        
+                        <img src="images/profile.jpg" alt="Innocencia Lindokuhle Mkhatswa"
+                             onerror="this.parentElement.classList.add('no-photo')">
+                        <span class="photo-fallback">IM</span>
+                    </div>
+                    <div class="floating-tag tag-one">&lt;/&gt; Java · Python</div>
+                    <div class="floating-tag tag-two">PHP · SQL</div>
+                </div>
+
+            </div>
+
+            <a href="#about" class="scroll-hint" aria-label="Scroll down">
+                <span></span>
+            </a>
+
+        </section>
+
+
+        <!-- ===================================
+             ABOUT
+        ==================================== -->
+        <section id="about" class="section">
+
+            <div class="section-head reveal">
+                <p class="eyebrow">01 · ABOUT ME</p>
+                <h2 class="section-title">A developer who loves<br>solving real problems.</h2>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-text reveal">
+                    <p>
+                        I'm <strong>Innocencia</strong>, a Software Developer and graduate in
+                        <strong>Information Communication Technology in Application Development</strong>.
+                        I enjoy turning ideas into applications and websites that are simple to use
+                        and solve real problems.
+                    </p>
+                    <p>
+                        I learn best by building. Every project teaches me something new, from writing
+                        cleaner code to designing better experiences. I'm currently sharpening my
+                        skills in Java, Python and PHP, building projects in public on GitHub, and looking for a team
+                        where I can grow and contribute.
+                    </p>
+
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">6</span><span class="stat-plus">+</span>
+                            <p>Projects built</p>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10</span><span class="stat-plus">+</span>
+                            <p>Languages & tools</p>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100</span><span class="stat-plus">%</span>
+                            <p>Ready to learn</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick facts -->
+                <div class="facts reveal">
+                    <h3>Quick facts</h3>
+                    <dl>
+                        <div><dt>Role</dt><dd>Junior Software Developer</dd></div>
+                        <div><dt>Qualification</dt><dd>ICT in Application Development</dd></div>
+                        <div><dt>Experience</dt><dd>Software Development Intern – Auspify Technologies</dd></div>
+                        <div><dt>Main languages</dt><dd>Java · Python · PHP · JavaScript · SQL</dd></div>
+                        <div><dt>Location</dt><dd>South Africa · open to remote &amp; on-site</dd></div>
+                        <div><dt>Status</dt><dd class="ok">Available now</dd></div>
+                    </dl>
+                    <div class="facts-actions">
+                        <a href="cv.pdf" class="btn btn-primary" download>Download CV</a>
+                        <a href="#contact" class="btn btn-outline">Contact me</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ===================================
+             EXPERIENCE & EDUCATION
+        ==================================== -->
+        <section id="experience" class="section">
+
+            <div class="section-head reveal">
+                <p class="eyebrow">02 EDUCATION</p>
+                <h2 class="section-title">Where I've learned<br></h2>
+            </div>
+
+            <div class="timeline">
+
+        
+
+                <div class="timeline-item reveal">
+                    <span class="timeline-date">Qualification</span>
+                    <h3>ICT in Application Development</h3>
+                    <p class="timeline-place">University of Mpumalanga</p>
+                    <p>Studied programming, object-oriented design, databases and SQL, web development and the software development lifecycle.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ===================================
+             SKILLS
+        ==================================== -->
+        <section id="skills" class="section">
+
+            <div class="section-head reveal">
+                <p class="eyebrow">03 · SKILLS</p>
+                <h2 class="section-title">My toolbox.</h2>
+                <p class="section-sub">The programming languages, tools and ideas I use to build software.</p>
+            </div>
+
+            <!-- Programming languages: one card per language -->
+            <h3 class="sub-title reveal">Programming languages</h3>
+
+            <div class="lang-grid">
+
+                <div class="lang-card reveal">
+                    <div class="lang-head">
+                        <img class="lang-logo" src="images/skills/java.svg" alt="Java logo">
+                        <div>
+                            <h4>Java</h4>
+                            <span class="lang-level">Strong</span>
+                        </div>
+                    </div>
+                    <div class="bar"><i data-level="75"></i></div>
+                    <p>My main language for desktop and back-end applications.</p>
+                    <ul class="lang-points">
+                        <li>Object-oriented design: classes, inheritance, interfaces</li>
+                        <li>Collections (ArrayList, HashMap) and exception handling</li>
+                        <li>Connecting to databases with JDBC</li>
+                    </ul>
+                </div>
+
+                <div class="lang-card reveal">
+                    <div class="lang-head">
+                        <img class="lang-logo" src="images/skills/javascript.svg" alt="JavaScript logo">
+                        <div>
+                            <h4>JavaScript</h4>
+                            <span class="lang-level">Intermediate</span>
+                        </div>
+                    </div>
+                    <div class="bar"><i data-level="70"></i></div>
+                    <p>Makes my websites interactive and data-driven.</p>
+                    <ul class="lang-points">
+                        <li>DOM manipulation and event handling</li>
+                        <li>ES6+: arrow functions, array methods, modules</li>
+                        <li>Fetching data from APIs with async / await</li>
+                    </ul>
+                </div>
+
+                <div class="lang-card reveal">
+                    <div class="lang-head">
+                        <img class="lang-logo" src="images/skills/python.svg" alt="Python logo">
+                        <div>
+                            <h4>Python</h4>
+                            <span class="lang-level">Intermediate</span>
+                        </div>
+                    </div>
+                    <div class="bar"><i data-level="65"></i></div>
+                    <p>Clean, readable code for scripts, logic and data.</p>
+                    <ul class="lang-points">
+                        <li>Variables, data types, loops and functions</li>
+                        <li>Lists, dictionaries and file handling</li>
+                        <li>Object-oriented programming with classes</li>
+                    </ul>
+                </div>
+
+                <div class="lang-card reveal">
+                    <div class="lang-head">
+                        <img class="lang-logo" src="images/skills/php.svg" alt="PHP logo">
+                        <div>
+                            <h4>PHP</h4>
+                            <span class="lang-level">Intermediate</span>
+                        </div>
+                    </div>
+                    <div class="bar"><i data-level="60"></i></div>
+                    <p>Server-side code that powers dynamic websites.</p>
+                    <ul class="lang-points">
+                        <li>Handling HTML forms and user input</li>
+                        <li>Connecting to MySQL databases</li>
+                        <li>Sessions and simple login systems</li>
+                    </ul>
+                </div>
+
+                <div class="lang-card reveal">
+                    <div class="lang-head">
+                        <img class="lang-logo" src="images/skills/sql.svg" alt="SQL database icon">
+                        <div>
+                            <h4>SQL</h4>
+                            <span class="lang-level">Intermediate</span>
+                        </div>
+                    </div>
+                    <div class="bar"><i data-level="70"></i></div>
+                    <p>Designing and querying relational databases.</p>
+                    <ul class="lang-points">
+                        <li>Table design, primary &amp; foreign keys, normalisation</li>
+                        <li>SELECT, INSERT, UPDATE, DELETE (CRUD)</li>
+                        <li>JOINs, GROUP BY and aggregate functions</li>
+                    </ul>
+                </div>
+
+                <div class="lang-card reveal">
+                    <div class="lang-head">
+                        <img class="lang-logo" src="images/skills/html5.svg" alt="HTML5 logo">
+                        <div>
+                            <h4>HTML5</h4>
+                            <span class="lang-level">Strong</span>
+                        </div>
+                    </div>
+                    <div class="bar"><i data-level="85"></i></div>
+                    <p>The structure behind every page I build.</p>
+                    <ul class="lang-points">
+                        <li>Semantic, accessible markup</li>
+                        <li>Forms and input validation</li>
+                        <li>SEO and social-share meta tags</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Tools + concepts -->
+            <div class="skills-grid two">
+
+                <div class="skill-card reveal">
+                    <h3>Tools &amp; Workflow</h3>
+                    <p>How I write, track and share my work.</p>
+                    <div class="tool-row">
+                        <span class="tool"><img src="images/skills/git.svg" alt="">Git</span>
+                        <span class="tool"><img src="images/skills/github.svg" alt="">GitHub</span>
+                        <span class="tool"><img src="images/skills/vscode.svg" alt="">VS Code</span>
+                        <span class="tool"><img src="images/skills/github.svg" alt="">GitHub Pages</span>
+                    </div>
+                </div>
+
+                <div class="skill-card reveal">
+                    <h3>Concepts I apply</h3>
+                    <p>The ideas behind the code.</p>
+                    <div class="concept-row">
+                        <span>Object-Oriented Programming</span>
+                        <span>Data Structures</span>
+                        <span>Database Design</span>
+                        <span>Algorithms</span>
+                        <span>REST APIs</span>
+                        <span>Version Control</span>
+                        <span>Debugging &amp; Testing</span>
+                        <span>SDLC</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="soft-skills reveal">
+                <span>Problem solving</span>
+                <span>Fast learner</span>
+                <span>Team player</span>
+                <span>Clear communicator</span>
+                <span>Reliable</span>
+                <span>Attention to detail</span>
+            </div>
+
+        </section>
+
+
+        <!-- ===================================
+             PROJECTS
+        ==================================== -->
+        <section id="projects" class="section">
+
+            <div class="section-head reveal">
+                <p class="eyebrow">04 · PROJECTS</p>
+                <h2 class="section-title">Things I've built.</h2>
+                <p class="section-sub"> projects I built</p>
+            </div>
+
+            <div class="filters reveal">
+                <button class="filter active" data-filter="all">All</button>
+                <button class="filter" data-filter="easy">Easy</button>
+                <button class="filter" data-filter="medium">Medium</button>
+                <button class="filter" data-filter="advanced">Advanced</button>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- PROJECT 1 -->
+                <article class="project-card reveal" data-category="easy" data-project="0">
+                    <div class="project-image">
+                        <!-- To use a real screenshot instead, save it as images/projects/student-management.png and change .svg to .png -->
+                        <img src="images/projects/student-management.svg" alt="Student Management System preview" loading="lazy">
+                        <span class="project-badge level-easy">Easy</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Student Management System</h3>
+                        <p>A software application for managing student records efficiently, from adding new students to updating and removing their details.</p>
+                        <div class="tags">
+                            <span>CRUD Operations</span><span>Data Management</span><span>Software Design</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="link-btn open-modal">Details →</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- PROJECT 2 -->
+                <article class="project-card reveal" data-category="easy" data-project="1">
+                    <div class="project-image">
+                        <!-- To use a real screenshot instead, save it as images/projects/library-management.png and change .svg to .png -->
+                        <img src="images/projects/library-management.svg" alt="Library Management System preview" loading="lazy">
+                        <span class="project-badge level-easy">Easy</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Library Management System</h3>
+                        <p>A software solution for managing books and library transactions, with book issue and return, search and reports.</p>
+                        <div class="tags">
+                            <span>Database Integration</span><span>Software Architecture</span><span>System Testing</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="link-btn open-modal">Details →</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- PROJECT 3 -->
+                <article class="project-card reveal" data-category="medium" data-project="2">
+                    <div class="project-image">
+                        <!-- To use a real screenshot instead, save it as images/projects/inventory-management.png and change .svg to .png -->
+                        <img src="images/projects/inventory-management.svg" alt="Inventory Management System preview" loading="lazy">
+                        <span class="project-badge level-medium">Medium</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Inventory Management System</h3>
+                        <p>Software that manages inventory records and stock levels, with search, filtering and a reports dashboard.</p>
+                        <div class="tags">
+                            <span>Database Design</span><span>Business Logic</span><span>Reporting</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="link-btn open-modal">Details →</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- PROJECT 4 -->
+                <article class="project-card reveal" data-category="medium" data-project="3">
+                    <div class="project-image">
+                        <!-- To use a real screenshot instead, save it as images/projects/employee-management.png and change .svg to .png -->
+                        <img src="images/projects/employee-management.svg" alt="Employee Management System preview" loading="lazy">
+                        <span class="project-badge level-medium">Medium</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Employee Management System</h3>
+                        <p>Software for managing employee records and organisational data, including departments, search and reports.</p>
+                        <div class="tags">
+                            <span>SDLC</span><span>Database Operations</span><span>Application Design</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="link-btn open-modal">Details →</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- PROJECT 5 -->
+                <article class="project-card reveal" data-category="advanced" data-project="4">
+                    <div class="project-image">
+                        <!-- To use a real screenshot instead, save it as images/projects/online-examination.png and change .svg to .png -->
+                        <img src="images/projects/online-examination.svg" alt="Online Examination System preview" loading="lazy">
+                        <span class="project-badge level-advanced">Advanced</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Online Examination System</h3>
+                        <p>A platform for conducting online exams, with secure login, timed tests, automatic marking and score reports.</p>
+                        <div class="tags">
+                            <span>Authentication</span><span>Secure Development</span><span>Data Validation</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="link-btn open-modal">Details →</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- PROJECT 6 -->
+                <article class="project-card reveal" data-category="advanced" data-project="5">
+                    <div class="project-image">
+                        <!-- To use a real screenshot instead, save it as images/projects/task-management.png and change .svg to .png -->
+                        <img src="images/projects/task-management.svg" alt="Task Management App preview" loading="lazy">
+                        <span class="project-badge level-advanced">Advanced</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Task Management App</h3>
+                        <p>A productivity app that helps users manage their tasks and deadlines efficiently.</p>
+                        <div class="tags">
+                            <span>Authentication</span><span>Data Validation</span><span>System Integration</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="link-btn open-modal">Details →</button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <p class="more-link reveal">
+                More on my <a href="https://github.com/Innocencia-Lindokuhle-Mkhatswa" target="_blank" rel="noopener">GitHub ↗</a>
+            </p>
+
+        </section>
+
+
+        <!-- ===================================
+             CONTACT
+        ==================================== -->
+        <section id="contact" class="section">
+
+            <div class="section-head center reveal">
+                <p class="eyebrow">05 · CONTACT</p>
+                <h2 class="section-title">Let's build something<br>together.</h2>
+                <p class="section-sub">Have a role, a project or a question? My inbox is open.</p>
+            </div>
+
+            <div class="contact-grid">
+
+                <div class="contact-info reveal">
+
+                    <div class="contact-card">
+                        <span class="contact-icon"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m3 6 9 7 9-7"/></svg></span>
+                        <div>
+                            <h3>Email</h3>
+                            <p>lindo7innocencia@gmail.com</p>
+                        </div>
+                        <button class="copy-btn" id="copy-email" data-email="lindo7innocencia@gmail.com">Copy</button>
+                    </div>
+
+                    <a class="contact-card" href="https://www.linkedin.com/in/lindokuhle-innocencia-mkhatswa-728699279/" target="_blank" rel="noopener">
+                        <span class="contact-icon"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="3"/><path d="M7 10v7M7 7v.01M11 17v-7M11 13a3 3 0 0 1 6 0v4"/></svg></span>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>Connect with me</p>
+                        </div>
+                        <span class="arrow">↗</span>
+                    </a>
+
+                    <a class="contact-card" href="https://github.com/Innocencia-Lindokuhle-Mkhatswa" target="_blank" rel="noopener">
+                        <span class="contact-icon"><svg viewBox="0 0 24 24"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></span>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>See my code</p>
+                        </div>
+                        <span class="arrow">↗</span>
+                    </a>
+
+                    <div class="contact-card">
+                        <span class="contact-icon"><svg viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+                        <div>
+                            <h3>Location</h3>
+                            <p>South Africa · Open to remote & on-site</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Sends messages to your email through FormSubmit (free) -->
+                <form class="contact-form reveal" id="contact-form" action="https://formsubmit.co/lindo7innocencia@gmail.com" method="POST">
+
+                    <div class="form-row">
+                        <div class="field">
+                            <input type="text" id="name" name="name" placeholder=" " required>
+                            <label for="name">Your name</label>
+                        </div>
+                        <div class="field">
+                            <input type="email" id="email" name="email" placeholder=" " required>
+                            <label for="email">Your email</label>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <input type="text" id="subject" name="subject" placeholder=" ">
+                        <label for="subject">Subject</label>
+                    </div>
+
+                    <div class="field">
+                        <textarea id="message" name="message" rows="5" placeholder=" " required></textarea>
+                        <label for="message">Your message</label>
+                    </div>
+
+                    <input type="hidden" name="_subject" value="New message from your portfolio">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off">
+
+                    <button type="submit" class="btn btn-primary" id="form-button">Send Message ✈</button>
+                    <p class="form-status" id="form-status" role="status"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <a href="#home" class="logo">IM<span>.</span></a>
+        <p>Designed & built by Innocencia Lindokuhle Mkhatswa</p>
+        <p class="footer-small">© <span id="year"></span> · Made with HTML, CSS & JavaScript</p>
+    </footer>
+
+    <a href="#home" class="back-to-top" id="back-to-top" aria-label="Back to top">↑</a>
+
+    <!-- Copy confirmation pop-up -->
+    <div class="toast" id="toast" role="status"></div>
+
+
+    <!-- ===== PROJECT DETAILS POP-UP ===== -->
+    <div class="modal" id="modal" aria-hidden="true">
+        <div class="modal-backdrop" data-close></div>
+        <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <button class="modal-close" data-close aria-label="Close">✕</button>
+            <div class="modal-image" id="modal-image"></div>
+            <div class="modal-content">
+                <h3 id="modal-title"></h3>
+                <p id="modal-description"></p>
+                <h4>Key features</h4>
+                <ul id="modal-features"></ul>
+                <h4>What I learned</h4>
+                <p id="modal-learned"></p>
+                <div class="tags" id="modal-tags"></div>
+                <div class="modal-links" id="modal-links"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
