@@ -274,7 +274,7 @@ themeButton.addEventListener("click", function () {
     try {
         localStorage.setItem("theme", theme);
     } catch (error) {
-        // ignore
+        
     }
 });
 
